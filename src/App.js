@@ -39,6 +39,7 @@ function App() {
   };
   return (
     <>
+      <h1>Todoリスト</h1>
       {/* TodoList: todosをまとめたコンポーネント */}
       <TodoList todos={todos} toggleTodo={toggleTodo} />
       <input type="text" ref={todoNameRef} />
