@@ -43,6 +43,7 @@ function App() {
       <h2>Todoリストサブ</h2>
       {/* TodoList: todosをまとめたコンポーネント */}
       <TodoList todos={todos} toggleTodo={toggleTodo} />
+      <button>ヘッダー１</button>
       <input type="text" ref={todoNameRef} />
       <button onClick={handleAddTodo}>タスク追加</button>
       <button>タスク更新（確定）</button>
