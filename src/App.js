@@ -43,6 +43,7 @@ function App() {
       <TodoList todos={todos} toggleTodo={toggleTodo} />
       <button>ヘッダー１</button>
       <button>ヘッダー２</button>
+      <button>ヘッダー３</button>
       <input type="text" ref={todoNameRef} />
       <button onClick={handleAddTodo}>タスク追加</button>
       <button>タスク更新（確定）</button>
