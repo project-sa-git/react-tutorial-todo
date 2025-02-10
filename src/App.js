@@ -47,6 +47,7 @@ function App() {
       <button>タスク更新２（予定）</button>
       <button onClick={handleClear}>タスク削除</button>
       <div>残りのタスク： {todos.filter((todo) => !todo.completed).length}</div>
+      <div>残タスク： {todos.filter((todo) => !todo.completed).length}</div>
       <div>更新予定のタスク</div>
     </>
   );
